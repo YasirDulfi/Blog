@@ -1,0 +1,66 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px ;
+    background-color:rgba(230, 230, 230, 0.719);
+ 
+    
+}
+
+#formularioContacto {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#formularioContacto h2 {
+    font-family: 'WindSong', cursive;
+    
+}
+
+#formularioContacto h3 {
+    background-color: rgb(0, 194, 0);
+    padding: 5px;
+    width: 490px;
+    text-align: center;
+    display: none;
+}
+
+#formularioContacto input {
+    width: 490px;
+    height: 30px;
+    margin: 5px;
+
+} 
+
+#textoContacto {
+    height: 190px;
+}
+
+
+
+
+#redesSociales {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+
+#redesSociales h2 {
+    font-family:'WindSong', cursive;
+}
+#redesSociales img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}

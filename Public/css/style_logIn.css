@@ -1,0 +1,40 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+#cuerpo {
+    background-image: url('../img/log-in.jpg');
+    background-color: blueviolet;
+   
+}
+
+#add_session {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 40%;
+    padding: 40px;
+    background-color: rgba(230, 230, 230, 0.719);
+   
+}
+
+#add_session h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#add_session input {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+#add_session p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+

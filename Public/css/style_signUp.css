@@ -1,0 +1,46 @@
+* {
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/log-in.jpg');
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 20px;
+}
+
+#registrar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 45%;
+    padding: 40px;
+    background-color: rgba(230, 230, 230, 0.719);
+    
+}
+
+#registrar h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#registrar input {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+#registrar p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
